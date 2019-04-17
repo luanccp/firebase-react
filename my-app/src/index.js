@@ -3,6 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import * as firebase from 'firebase';
+
+
+var config = {
+    apiKey: "AIzaSyCMgDJvYydQDr0NmMzn-cOrDPovt2fjk9I",
+    authDomain: "first-firebase-project-8b61d.firebaseapp.com",
+    databaseURL: "https://first-firebase-project-8b61d.firebaseio.com",
+    projectId: "first-firebase-project-8b61d",
+    storageBucket: "first-firebase-project-8b61d.appspot.com",
+    messagingSenderId: "1004748394089"
+  };
+
+
+firebase.initializeApp(config)
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

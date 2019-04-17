@@ -1,0 +1,25 @@
+[debug] [2019-04-17T17:49:14.939Z] ----------------------------------------------------------------------
+[debug] [2019-04-17T17:49:14.940Z] Command:       /usr/bin/node /home/luanccp/.npm-global/bin/firebase serve
+[debug] [2019-04-17T17:49:14.941Z] CLI Version:   6.6.0
+[debug] [2019-04-17T17:49:14.941Z] Platform:      linux
+[debug] [2019-04-17T17:49:14.941Z] Node Version:  v8.10.0
+[debug] [2019-04-17T17:49:14.941Z] Time:          Wed Apr 17 2019 14:49:14 GMT-0300 (-03)
+[debug] [2019-04-17T17:49:14.941Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-17T17:49:14.946Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-17T17:49:14.946Z] > authorizing via signed-in user
+[debug] [2019-04-17T17:49:14.946Z] [iam] checking project first-firebase-project-8b61d for permissions ["firebase.projects.get"]
+[debug] [2019-04-17T17:49:14.947Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/first-firebase-project-8b61d:testIamPermissions  
+
+[debug] [2019-04-17T17:49:16.078Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-17T17:49:16.080Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/first-firebase-project-8b61d  
+ 
+[debug] [2019-04-17T17:49:17.190Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/luanccp/dev/Pessoal/react-firebase/my-app'...
+[info] 
+[debug] [2019-04-17T17:49:17.194Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1004748394089/clients/_:getWebAppConfig  
+ 
+[debug] [2019-04-17T17:49:17.805Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000

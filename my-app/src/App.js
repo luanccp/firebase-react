@@ -1,25 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import * as firebase from 'firebase';
+
 
 class App extends Component {
+  
+  constructor(){
+    super();
+    this.state = {
+      speed: 15
+    };
+  }
+  
+  // componentDidMount(){
+  //   const rootRef = firebase.database().ref().child('react');
+  //   const speedRef = rootRef.child('speed');
+  //   speedRef.on('value', snap => {
+  //     this.setState({
+  //       speed:snap.val()
+  //     });
+  //   });
+  // }
+  
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h2>{this.state.speed}Luan</h2>
       </div>
     );
   }
